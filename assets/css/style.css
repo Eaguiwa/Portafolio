@@ -39,10 +39,10 @@ body {
     font: 400 14px 'Poppins', sans-serif;
     -webkit-font-smoothing: antialiased;
     line-height: 30px;
-    color: #727272;
+    color: #343232;
     font-size: 16px;
     font-weight: 300;
-    line-height: 2.2;
+    line-height: 1.9;
     overflow-x: hidden;
 }
 
@@ -619,11 +619,11 @@ h2.portfolio.menu-item:before {
 }
 
 h2.blog.menu-item:before {
-    content: '03';
+    content: '04';
 }
 
 h2.contact.menu-item:before {
-    content: '04';
+    content: '03';
 }
 
 .menu-block:hover h2.menu-item:before {
@@ -719,13 +719,14 @@ h2.menu-item:after {
     font-weight: 600;
     line-height: 40px;
     margin-top: -5px;
-    padding: 0 15px;
+    padding: 0 20px;
     color: #666;
 }
 
 .inline-menu li.active,
 .inline-menu li:hover {
     color: #333;
+  
 }
 
 .inline-menu li.active {
@@ -894,7 +895,7 @@ h2.menu-item:after {
     text-transform: uppercase;
     color: #333;
     padding-bottom: 15px;
-    border-bottom: 1px solid #ddd;
+    border-bottom: 1.6px solid #50c1e5;
     margin-bottom: 30px;
     font-weight: 600;
 }
@@ -1067,7 +1068,7 @@ h2.menu-item:after {
     font-size: 30px;
     font-weight: 300;
     line-height: 2em;
-    margin-bottom: 30px;
+    margin-bottom: 12px;
     text-transform: none;
 }
 
@@ -1161,7 +1162,7 @@ h2.menu-item:after {
 }
 
 .timeline:before {
-    background: #ddd;
+    background: #606060;
     bottom: 0;
     content: "";
     left: 18px;
@@ -1179,7 +1180,7 @@ h2.menu-item:after {
     height: 50px;
     position: absolute;
     text-align: center;
-    color: #ddd;
+    color: #606060;
     font-size: 36px;
     line-height: 45px;
 }
@@ -1193,12 +1194,12 @@ h2.menu-item:after {
 }
 
 .exp {
-    padding: 20px 20px 0 80px;
+    padding: 0px 20px 0 80px;
     position: relative;
 }
 
 .exp:after {
-    background: #FFF;
+    background: #767070;
     border: 2px solid #ddd;
     border-radius: 50%;
     content: "";
@@ -1206,7 +1207,7 @@ h2.menu-item:after {
     left: 9px;
     position: absolute;
     text-align: center;
-    top: 24px;
+    top: 6px;
     width: 20px;
 }
 
@@ -1501,13 +1502,13 @@ h4.package {
 }
 
 .portfolio-column:hover {
-    -webkit-box-shadow: 0 2px 7px 1px rgba(0, 0, 0, 0.3);
+    -webkit-box-shadow: 0 2px 7px 6px rgba(0, 0, 0, 0.3);
     -moz-box-shadow: 0 2px 7px 1px rgba(0, 0, 0, 0.3);
     box-shadow: 0 2px 7px 1px rgba(0, 0, 0, 0.3);
 }
 
 .portfolio-column:hover img {
-    transform: scale(1.1);
+    transform: scale(1.05);
 }
 
 .portfolio-column:hover .portfolio-content {
@@ -2832,4 +2833,71 @@ h4.package {
 
 .no-cursor .cursor {
     background-color: transparent;
+}
+.habili-tec {
+    height: 65px;
+    width: 70px;
+    display: block;
+    margin: auto;
+  }
+  .ht-title {
+      font-size: 14px;
+      text-transform: uppercase;
+      text-align: center;
+      margin: 1rem;
+      font-weight: bold;
+      font-family: inherit;
+      color: #393636;
+  }
+
+  .animacion-btn.animate {
+            animation: pulsar 2s infinite;
+        }
+
+
+        @keyframes pulsar {
+            0% {
+                transform: scale(1);
+            }
+            50% {
+                transform: scale(1.2);
+            }
+            100% {
+                transform: scale(1);
+            }
+        }
+
+        
+        .menu-itemss {
+            
+            animation: glow 1s infinite alternate; /* Animación de brillo */
+        }
+      
+        @keyframes glow {
+            0% {
+                border-color: #000000; /* Color del borde cuando está animando */
+                box-shadow: 0 0 9px rgba(0, 0, 0, 0.9);
+                border: solid   #100f0f;
+            }
+            100% {
+                border-color: transparent; /* Color del borde cuando está animando */
+                box-shadow: none;
+            }
+        }
+.portfolio-p{
+    text-align: center;
+    padding-top: 10px;
+    font-weight: 600;
+    color: #666;
+    margin-bottom: 0px;
+}
+.b-font{
+    font-size: 85%;
+    background-color: #485b9b !important;
+}
+.ico-hover:hover{
+    transform: scale(1.19);
+}
+.alht{
+    line-height: 1.6;
 }
